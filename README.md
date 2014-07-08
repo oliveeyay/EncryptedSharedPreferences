@@ -8,6 +8,9 @@ It uses AES 128bits encryption to secure datas, and is compatible with UTF-8 com
 
 The important part to deploy this library to my maven repository is:
 
+- Generate the aar (Android ARchive):
+Simply run the app configuration, it will compile sources, run some checks (see Quality for Android), assemble the aar and then upload it (see uploadArchives).
+
 - General build.gradle:
 
 ```
