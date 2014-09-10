@@ -29,7 +29,6 @@ apply plugin: 'maven'
 uploadArchives {
     repositories {
         mavenDeployer {
-            // You luckily want that this path leads to my maven hosted here https://github.com/vincentbrison/vb-maven/
             repository(url: uri("../../og-maven/release"))
             pom.groupId = 'com.og.encryptedsharedpreferences'
             pom.artifactId = 'encryptedsharedpreferences'
