@@ -27,6 +27,10 @@ dependencies {
 }
 ```
 
+======================
+
+Push to your own maven repo:
+
 The important part to deploy this library to my maven repository is:
 
 - Generate the aar (Android ARchive):
