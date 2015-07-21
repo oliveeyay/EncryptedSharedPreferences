@@ -6,6 +6,27 @@ Android library using Android Studio 0.8.0
 Provides encryption to SharedPreferences integrated system.
 It uses AES 128bits encryption to secure datas, and is compatible with UTF-8 compliants elements.
 
+======================
+
+Gradle integration:
+
+- Add the repository dependency:
+```
+repositories {
+    jcenter()
+    maven {
+        url "https://github.com/omadahealth/omada-nexus/raw/master/release"
+    }
+}
+```
+
+- Add the dependency into "dependencies":
+```
+dependencies {
+    compile 'com.og.encryptedsharedpreferences:encryptedsharedpreferences:1.0.0'
+}
+```
+
 The important part to deploy this library to my maven repository is:
 
 - Generate the aar (Android ARchive):
